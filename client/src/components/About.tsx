@@ -34,42 +34,41 @@ const About = () => {
           <div className="w-24 h-1 bg-primary mx-auto"></div>
         </motion.div>
         
-        <div className="flex flex-col lg:flex-row gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <motion.div 
-            className="lg:w-1/2"
             initial="hidden"
             animate={isVisible ? "visible" : "hidden"}
             variants={fadeInUpVariants}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <p className="text-lg mb-6">{t('about.description1')}</p>
-            <p className="text-lg mb-6">{t('about.description2')}</p>
-            <p className="text-lg mb-8">{t('about.description3')}</p>
+            <p className="text-base md:text-lg mb-6">{t('about.description1')}</p>
+            <p className="text-base md:text-lg mb-6">{t('about.description2')}</p>
+            <p className="text-base md:text-lg mb-8">{t('about.description3')}</p>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div>
                 <h3 className="text-xl font-medium mb-4">{t('about.personalInfo')}</h3>
-                <ul className="space-y-2">
+                <ul className="space-y-3">
                   <li className="flex items-start">
-                    <User className="text-primary mt-1 w-6" />
+                    <User className="text-primary mt-1 w-5 min-w-5" />
                     <div className="ml-3">
-                      <span className="font-medium">{t('about.name')}:</span> Thanh Doan
+                      <span className="font-medium">{t('about.name')}:</span> Đặng Trọng Thành
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <MapPin className="text-primary mt-1 w-6" />
+                    <MapPin className="text-primary mt-1 w-5 min-w-5" />
                     <div className="ml-3">
                       <span className="font-medium">{t('about.location')}:</span> {LOCATION}
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <Mail className="text-primary mt-1 w-6" />
-                    <div className="ml-3">
+                    <Mail className="text-primary mt-1 w-5 min-w-5" />
+                    <div className="ml-3 break-all">
                       <span className="font-medium">{t('about.email')}:</span> {EMAIL}
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <Phone className="text-primary mt-1 w-6" />
+                    <Phone className="text-primary mt-1 w-5 min-w-5" />
                     <div className="ml-3">
                       <span className="font-medium">{t('about.phone')}:</span> {PHONE}
                     </div>
@@ -79,30 +78,31 @@ const About = () => {
               <div>
                 <h3 className="text-xl font-medium mb-4">{t('about.interests')}</h3>
                 <div className="flex flex-wrap gap-2">
-                  {t('about.interestsList', { returnObjects: true }).map((interest: string, index: number) => (
-                    <span key={index} className="bg-slate-100 px-3 py-1 rounded-full text-sm">
-                      {interest}
-                    </span>
-                  ))}
+                  {Array.isArray(t('about.interestsList', { returnObjects: true })) && 
+                    t('about.interestsList', { returnObjects: true }).map((interest: string, index: number) => (
+                      <span key={index} className="bg-slate-100 px-3 py-1 rounded-full text-sm">
+                        {interest}
+                      </span>
+                    ))
+                  }
                 </div>
               </div>
             </div>
           </motion.div>
           
           <motion.div 
-            className="lg:w-1/2"
             initial="hidden"
             animate={isVisible ? "visible" : "hidden"}
             variants={fadeInUpVariants}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            <div className="bg-slate-50 p-8 rounded-lg shadow-lg">
+            <div className="bg-slate-50 p-4 md:p-8 rounded-lg shadow-lg">
               <h3 className="text-xl font-medium mb-6">{t('about.education')}</h3>
               <div className="space-y-6">
                 {educationData.map((education, index) => (
                   <motion.div 
                     key={education.id}
-                    className="bg-white p-6 rounded-lg shadow-sm"
+                    className="bg-white p-4 md:p-6 rounded-lg shadow-sm"
                     initial="hidden"
                     animate={isVisible ? "visible" : "hidden"}
                     variants={fadeInUpVariants}
@@ -113,7 +113,7 @@ const About = () => {
                         <h4 className="text-lg font-medium">{t(`educationItems.${index}.institution`)}</h4>
                         <p className="text-zinc-600">{t(`educationItems.${index}.degree`)}</p>
                       </div>
-                      <span className="text-sm bg-primary/20 text-primary px-3 py-1 rounded-full">
+                      <span className="text-sm bg-primary/20 text-primary px-3 py-1 rounded-full whitespace-nowrap">
                         {t(`educationItems.${index}.period`)}
                       </span>
                     </div>
