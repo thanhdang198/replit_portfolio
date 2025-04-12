@@ -10,7 +10,7 @@ import "./i18n/i18n";
 function Router() {
   useEffect(() => {
     // Set page title
-    document.title = "Thanh Doan | Frontend Developer";
+    document.title = "Đặng Trọng Thành | Mobile Team Leader";
   }, []);
 
   return (

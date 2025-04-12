@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useHeaderScroll, useScrollToSection } from '@/hooks/useScrollEffect';
@@ -19,8 +19,13 @@ const Header = () => {
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
-    // In a real implementation, we would toggle dark mode in the application
-    // For now, we're just toggling the state
+    
+    // Toggle the dark class on the HTML document
+    document.documentElement.classList.toggle('dark');
+    
+    // Save preference to local storage
+    const isDark = document.documentElement.classList.contains('dark');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
   };
 
   const handleNavClick = (sectionId: string) => {
@@ -44,7 +49,7 @@ const Header = () => {
               handleNavClick(SECTION_IDS.HERO);
             }}
           >
-            <span className="mr-2">Thanh Doan</span>
+            <span className="mr-2">Đặng Trọng Thành</span>
           </a>
           
           {/* Desktop Navigation */}
