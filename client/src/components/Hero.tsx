@@ -54,7 +54,11 @@ export default function Hero() {
             className="relative hidden lg:block"
           >
             <div className="relative rounded-lg overflow-hidden bg-gradient-to-tr from-primary/20 to-primary/5 aspect-square flex items-center justify-center">
-              <div className="text-6xl">👨‍💻</div>
+              <img 
+                src="/profile.png" 
+                alt="Đặng Trọng Thành" 
+                className="object-cover w-full h-full"
+              />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/10 rounded-full blur-3xl"></div>
               <div className="absolute -top-6 -left-6 w-32 h-32 bg-primary/10 rounded-full blur-3xl"></div>
             </div>
