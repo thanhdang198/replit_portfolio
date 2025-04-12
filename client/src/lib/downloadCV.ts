@@ -7,7 +7,7 @@ export async function downloadCV(language: string = 'en'): Promise<void> {
     // Create an anchor element and trigger download
     const link = document.createElement('a');
     link.href = url;
-    link.download = `Thanh_Doan_CV_${language.toUpperCase()}.pdf`;
+    link.download = `Dang_Trong_Thanh_CV_${language.toUpperCase()}.pdf`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

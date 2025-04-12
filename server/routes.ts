@@ -1,10 +1,12 @@
-import type { Express, Request, Response } from "express";
+import type { Express, Request, Response, NextFunction } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertMessageSchema } from "@shared/schema";
 import { z } from "zod";
 import { ZodError } from "zod";
 import { fromZodError } from "zod-validation-error";
+import path from "path";
+import fs from "fs";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // API routes
@@ -58,6 +60,27 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json(repos);
     } catch (error) {
       res.status(500).json({ message: "An error occurred while fetching GitHub repos" });
+    }
+  });
+
+  // Route to download CV
+  app.get("/api/download-cv", (req: Request, res: Response) => {
+    try {
+      const lang = req.query.lang as string || 'en';
+      const cvPath = path.resolve('./client/src/assets/thanh-cv.pdf');
+
+      if (!fs.existsSync(cvPath)) {
+        return res.status(404).json({ message: "CV file not found" });
+      }
+
+      res.setHeader('Content-Type', 'application/pdf');
+      res.setHeader('Content-Disposition', `attachment; filename=Dang_Trong_Thanh_CV_${lang.toUpperCase()}.pdf`);
+      
+      const fileStream = fs.createReadStream(cvPath);
+      fileStream.pipe(res);
+    } catch (error) {
+      console.error('Error downloading CV:', error);
+      res.status(500).json({ message: "An error occurred while downloading the CV" });
     }
   });
 
