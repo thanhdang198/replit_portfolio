@@ -1,0 +1,196 @@
+{
+  "header": {
+    "about": "Giới Thiệu",
+    "experience": "Kinh Nghiệm",
+    "skills": "Kỹ Năng",
+    "projects": "Dự Án",
+    "contact": "Liên Hệ"
+  },
+  "hero": {
+    "greeting": "Xin chào 👋,",
+    "intro": "Tôi là",
+    "name": "Đoàn Thanh",
+    "title": "Lập Trình Viên Frontend",
+    "description": "Tôi chuyên về xây dựng các ứng dụng web mạnh mẽ, tập trung vào người dùng với hiệu suất cao và mã nguồn sạch.",
+    "contact": "Liên Hệ Tôi",
+    "downloadCV": "Tải CV"
+  },
+  "about": {
+    "title": "Về Tôi",
+    "description1": "Tôi là một Lập trình viên Frontend đam mê với hơn 6 năm kinh nghiệm phát triển các ứng dụng web. Hành trình trong lĩnh vực phát triển phần mềm của tôi bắt đầu khi tôi học tại Đại học Bách Khoa Hà Nội.",
+    "description2": "Trong suốt sự nghiệp của mình, tôi đã làm việc với nhiều công nghệ và framework khác nhau, luôn cố gắng tạo ra mã nguồn sạch, dễ bảo trì và trải nghiệm người dùng tuyệt vời. Tôi thích giải quyết các vấn đề phức tạp và liên tục học hỏi các kỹ năng và công nghệ mới.",
+    "description3": "Khi không code, tôi thích đọc sách về công nghệ, chơi cờ vua và khám phá những địa điểm mới.",
+    "personalInfo": "Thông Tin Cá Nhân",
+    "name": "Tên",
+    "location": "Địa Điểm",
+    "email": "Email",
+    "phone": "Điện Thoại",
+    "interests": "Sở Thích",
+    "interestsList": ["Phát Triển Web", "Thiết Kế UI/UX", "Công Nghệ", "Mã Nguồn Mở", "Đọc Sách", "Du Lịch"],
+    "education": "Học Vấn"
+  },
+  "educationItems": [
+    {
+      "institution": "Đại học Bách Khoa Hà Nội",
+      "degree": "Kỹ sư Công nghệ Thông tin",
+      "period": "2013 - 2018",
+      "gpa": "GPA: 3.6/4.0",
+      "description": "Tập trung vào kỹ thuật phần mềm và phát triển web. Tham gia nhiều cuộc thi lập trình và hackathon."
+    },
+    {
+      "institution": "Chuyên Ngành Phát Triển Frontend",
+      "degree": "Coursera - Meta",
+      "period": "2022",
+      "description": "Hoàn thành khóa đào tạo nâng cao về các phương pháp phát triển frontend hiện đại, React và thiết kế responsive."
+    }
+  ],
+  "experience": {
+    "title": "Kinh Nghiệm Làm Việc"
+  },
+  "experienceItems": [
+    {
+      "title": "Senior Frontend Developer",
+      "company": "Công ty ABC Tech",
+      "period": "2020 - Hiện tại",
+      "description": "Dẫn dắt đội phát triển frontend trong việc xây dựng các ứng dụng web responsive bằng React và TypeScript. Triển khai các giải pháp quản lý trạng thái sử dụng Redux và Context API.",
+      "technologies": ["React", "TypeScript", "Redux", "Material UI"]
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "XYZ Solutions",
+      "period": "2018 - 2020",
+      "description": "Phát triển và bảo trì các ứng dụng web phía client. Hợp tác với đội UX để triển khai thiết kế responsive và đảm bảo khả năng tương thích đa trình duyệt.",
+      "technologies": ["JavaScript", "Vue.js", "SCSS", "Webpack"]
+    },
+    {
+      "title": "Thực Tập Sinh Web Developer",
+      "company": "DEF Web Agency",
+      "period": "2017 - 2018",
+      "description": "Hỗ trợ phát triển website cho các khách hàng khác nhau. Tích lũy kinh nghiệm với HTML5, CSS3 và JavaScript. Tham gia các cuộc họp standup hàng ngày và lập kế hoạch sprint.",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "jQuery"]
+    }
+  ],
+  "skills": {
+    "title": "Kỹ Năng",
+    "technicalSkills": "Kỹ Năng Kỹ Thuật",
+    "toolsAndOther": "Công Cụ & Kỹ Năng Khác",
+    "developmentTools": "Công Cụ Phát Triển",
+    "frontendLibraries": "Thư Viện & Framework Frontend",
+    "buildTools": "Công Cụ Build",
+    "testing": "Kiểm Thử",
+    "languages": "Ngôn Ngữ"
+  },
+  "technicalSkills": [
+    {
+      "name": "JavaScript/TypeScript",
+      "level": 90
+    },
+    {
+      "name": "React & Redux",
+      "level": 85
+    },
+    {
+      "name": "HTML5 & CSS3/SCSS",
+      "level": 95
+    },
+    {
+      "name": "Vue.js",
+      "level": 80
+    },
+    {
+      "name": "REST API/GraphQL",
+      "level": 85
+    }
+  ],
+  "tools": {
+    "developmentTools": [
+      { "name": "Git", "icon": "git-alt" },
+      { "name": "GitHub", "icon": "github" },
+      { "name": "GitLab", "icon": "code-branch" },
+      { "name": "CLI", "icon": "terminal" },
+      { "name": "VS Code", "icon": "laptop-code" }
+    ],
+    "frontendLibraries": [
+      { "name": "React", "icon": "react" },
+      { "name": "Vue", "icon": "vuejs" },
+      { "name": "jQuery", "icon": "js" },
+      { "name": "Bootstrap", "icon": "bootstrap" },
+      { "name": "Tailwind CSS", "icon": "wind" },
+      { "name": "Material UI", "icon": "cube" }
+    ],
+    "buildTools": [
+      { "name": "Webpack", "icon": "node-js" },
+      { "name": "Vite", "icon": "bolt" },
+      { "name": "Gulp", "icon": "tasks" }
+    ],
+    "testing": [
+      { "name": "Jest", "icon": "vial" },
+      { "name": "React Testing Library", "icon": "check-circle" },
+      { "name": "Cypress", "icon": "bug" }
+    ]
+  },
+  "languages": [
+    {
+      "name": "Tiếng Việt",
+      "level": 95,
+      "description": "Bản Địa"
+    },
+    {
+      "name": "Tiếng Anh",
+      "level": 80,
+      "description": "Chuyên Nghiệp"
+    },
+    {
+      "name": "Tiếng Nhật",
+      "level": 30,
+      "description": "Cơ Bản"
+    }
+  ],
+  "projects": {
+    "title": "Dự Án",
+    "contributions": "Đóng Góp GitHub",
+    "featured": "Dự Án Nổi Bật",
+    "filter": "Lọc",
+    "viewMore": "Xem thêm trên GitHub"
+  },
+  "projectItems": [
+    {
+      "title": "Bảng Điều Khiển E-commerce",
+      "description": "Một bảng điều khiển toàn diện cho phân tích e-commerce, với tính năng trực quan hóa dữ liệu thời gian thực và theo dõi doanh số.",
+      "technologies": ["React", "Redux", "TypeScript", "Chart.js"],
+      "category": "React"
+    },
+    {
+      "title": "Ứng Dụng Quản Lý Công Việc",
+      "description": "Một ứng dụng quản lý công việc đầy đủ tính năng với giao diện kéo thả, ưu tiên công việc và tính năng cộng tác nhóm.",
+      "technologies": ["Vue.js", "Vuex", "Firebase", "Tailwind CSS"],
+      "category": "Vue"
+    },
+    {
+      "title": "Ứng Dụng Dự Báo Thời Tiết",
+      "description": "Một ứng dụng di động đa nền tảng cung cấp dự báo thời tiết chính xác với bản đồ tương tác và thông báo tùy chỉnh.",
+      "technologies": ["React Native", "Redux", "OpenWeatherMap API", "Geolocation"],
+      "category": "React"
+    }
+  ],
+  "contact": {
+    "title": "Liên Hệ Tôi",
+    "subtitle": "Bạn có dự án nào trong đầu hoặc chỉ muốn chào hỏi? Hãy liên hệ với tôi!",
+    "info": "Thông Tin Liên Hệ",
+    "name": "Tên",
+    "email": "Email",
+    "subject": "Chủ đề",
+    "message": "Tin nhắn",
+    "submit": "Gửi Tin Nhắn",
+    "phone": "Điện Thoại",
+    "location": "Địa Điểm",
+    "website": "Website",
+    "connect": "Kết nối với tôi",
+    "success": "Tin nhắn đã được gửi thành công!",
+    "error": "Không thể gửi tin nhắn. Vui lòng thử lại."
+  },
+  "footer": {
+    "copyright": "© 2023 Đoàn Thanh. Bảo lưu mọi quyền.",
+    "designed": "Thiết kế & Xây dựng với ❤️"
+  }
+}
