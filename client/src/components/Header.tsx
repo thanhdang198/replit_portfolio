@@ -49,6 +49,11 @@ export default function Header() {
           className="text-xl font-bold text-primary"
         >
           <a href="#home" className="flex items-center gap-2">
+            <img 
+              src="/profile.png" 
+              alt="Logo" 
+              className="w-10 h-10 rounded-full object-cover border-2 border-primary" 
+            />
             <span>DTT</span>
           </a>
         </motion.div>
