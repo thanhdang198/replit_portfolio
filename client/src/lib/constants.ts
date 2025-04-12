@@ -1,9 +1,9 @@
 // Social links
-export const GITHUB_USERNAME = "doanthanh7";
-export const LINKEDIN_USERNAME = "thanhdt7";
-export const EMAIL = "thanhdt.dev@gmail.com";
-export const PHONE = "+84 917 xxx xxx";
-export const LOCATION = "Hanoi, Vietnam";
+export const GITHUB_USERNAME = "thanhdt-vietmap";
+export const LINKEDIN_USERNAME = "trongthanhdang";
+export const EMAIL = "contact@thanhdt.dev";
+export const PHONE = "+84 336 734 111";
+export const LOCATION = "Binh Tan District, HCM City";
 export const WEBSITE = "https://www.thanhdt.dev";
 
 // Section IDs
@@ -29,7 +29,7 @@ export const GITHUB_API = {
 };
 
 // Project filters
-export const PROJECT_FILTERS = ["All", "React", "Vue", "TypeScript"];
+export const PROJECT_FILTERS = ["All", "Flutter", "React Native", "Android", "iOS"];
 
 // Languages
 export const LANGUAGES = {

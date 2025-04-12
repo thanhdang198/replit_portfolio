@@ -9,39 +9,39 @@
   "hero": {
     "greeting": "Hi 👋,",
     "intro": "I'm",
-    "name": "Thanh Doan",
-    "title": "Frontend Developer",
-    "description": "I specialize in building robust, user-centric web applications with a focus on performance and clean code.",
+    "name": "Đặng Trọng Thành",
+    "title": "Mobile Developer",
+    "description": "I specialize in building cross-platform mobile applications with Flutter, React Native, and native Android/iOS development.",
     "contact": "Contact Me",
     "downloadCV": "Download CV"
   },
   "about": {
     "title": "About Me",
-    "description1": "I'm a passionate Frontend Developer with over 6 years of experience in developing web applications. My journey in software development started when I was studying at Hanoi University of Science and Technology.",
-    "description2": "Throughout my career, I've worked with various technologies and frameworks, always striving to create clean, maintainable code and delightful user experiences. I enjoy solving complex problems and continuously learning new skills and technologies.",
-    "description3": "When I'm not coding, I enjoy reading books on technology, playing chess, and exploring new places.",
+    "description1": "I'm a Mobile Developer specializing in Flutter, React Native, and native Android/iOS development. I focus on building clean architecture solutions for mobile platforms.",
+    "description2": "With experience in GoStream JSC and VietMap JSC, I've worked on various projects including social network message management, VoIP calls, map SDKs, and navigation solutions.",
+    "description3": "I'm also an open-source maintainer contributing to native modules for Flutter and React Native, and I've worked on MapLibre Android Auto.",
     "personalInfo": "Personal Information",
     "name": "Name",
     "location": "Location",
     "email": "Email",
     "phone": "Phone",
     "interests": "Interests",
-    "interestsList": ["Web Development", "UI/UX Design", "Technology", "Open Source", "Reading", "Travel"],
+    "interestsList": ["Mobile Development", "Map Technologies", "Clean Architecture", "Open Source", "SDK Development", "Flutter"],
     "education": "Education"
   },
   "educationItems": [
     {
-      "institution": "Hanoi University of Science and Technology",
-      "degree": "Bachelor of Engineering in Information Technology",
-      "period": "2013 - 2018",
-      "gpa": "GPA: 3.6/4.0",
-      "description": "Focused on software engineering and web development. Participated in multiple programming competitions and hackathons."
+      "institution": "Vinh University",
+      "degree": "Information Technology Industry",
+      "period": "2016 - 2021",
+      "gpa": "GPA: 7.40/10.0",
+      "description": "Focused on software engineering and mobile development."
     },
     {
-      "institution": "Frontend Development Specialization",
-      "degree": "Coursera - Meta",
-      "period": "2022",
-      "description": "Completed advanced training in modern frontend development practices, React, and responsive design."
+      "institution": "English Certification",
+      "degree": "B1 Certificate & Basic English Communication",
+      "period": "2020",
+      "description": "English for work, document research skills, and technical documentation."
     }
   ],
   "experience": {
@@ -49,25 +49,25 @@
   },
   "experienceItems": [
     {
-      "title": "Senior Frontend Developer",
-      "company": "ABC Tech Company",
-      "period": "2020 - Present",
-      "description": "Led the frontend development team in building responsive web applications using React and TypeScript. Implemented state management solutions using Redux and Context API.",
-      "technologies": ["React", "TypeScript", "Redux", "Material UI"]
+      "title": "Mobile Team & CS Team Leader",
+      "company": "VietMap JSC - Map Solutions BU",
+      "period": "12/2022 - Present",
+      "description": "Leading the Mobile SDK & Customer Support team, maintaining map and navigation SDKs for Android, iOS, Flutter, and React Native. Implementing VietMap solutions for Android Auto and providing technical documentation and support.",
+      "technologies": ["Flutter", "React Native", "Android", "iOS", "Map SDK", "Android Auto"]
     },
     {
-      "title": "Frontend Developer",
-      "company": "XYZ Solutions",
-      "period": "2018 - 2020",
-      "description": "Developed and maintained client-facing web applications. Collaborated with the UX team to implement responsive designs and ensure cross-browser compatibility.",
-      "technologies": ["JavaScript", "Vue.js", "SCSS", "Webpack"]
+      "title": "Mobile Developer",
+      "company": "GoStream Technology JSC",
+      "period": "02/2021 - 11/2022",
+      "description": "Worked on projects in social network message management (Facebook Page, Zalo OA, Instagram), social commerce, and VoIP calls with 3rd party SDKs (PortSIP SDK).",
+      "technologies": ["React Native", "PortSIP SDK", "Social APIs", "POS"]
     },
     {
-      "title": "Web Developer Intern",
-      "company": "DEF Web Agency",
-      "period": "2017 - 2018",
-      "description": "Assisted in developing websites for various clients. Gained experience in HTML5, CSS3, and JavaScript. Participated in daily standup meetings and sprint planning.",
-      "technologies": ["HTML5", "CSS3", "JavaScript", "jQuery"]
+      "title": "Intern",
+      "company": "FPT Software",
+      "period": "5/2019 - 7/2019",
+      "description": "Became an intern at FPT Software, which taught me how to work with fully private process and project information.",
+      "technologies": ["Software Development", "Professional Processes"]
     }
   ],
   "skills": {
