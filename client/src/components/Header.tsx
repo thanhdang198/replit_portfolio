@@ -49,12 +49,11 @@ export default function Header() {
           className="text-xl font-bold text-primary"
         >
           <a href="#home" className="flex items-center gap-2">
-            <img 
-              src="/profile.png" 
-              alt="Logo" 
-              className="w-10 h-10 object-contain" 
-            />
-            <span>DTT</span>
+            <div className="flex items-center">
+              <span className="text-2xl font-signature">&lt;</span>
+              <span className="text-2xl font-signature mx-1">Thanh</span>
+              <span className="text-2xl font-signature">/&gt;</span>
+            </div>
           </a>
         </motion.div>
 
