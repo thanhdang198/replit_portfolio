@@ -119,7 +119,7 @@ const translations = {
     
     // Footer
     "footer.rights": "All rights reserved",
-    "footer.made": "Made with ❤️",
+    "footer.made": "Made with Replit AI❤️",
     
     // Certifications
     "certifications.title": "Certifications",
@@ -161,14 +161,14 @@ const translations = {
     // Hero
     "hero.greeting": "Xin chào, tôi là",
     "hero.name": "Đặng Trọng Thành",
-    "hero.title": "Lập trình viên Mobile",
+    "hero.title": "Mobile Developer",
     "hero.subtitle": "Chuyên về phát triển Flutter, React Native, Android và iOS",
     "hero.cta": "Tải CV",
     "hero.contact": "Liên hệ",
     
     // About
     "about.title": "Giới thiệu",
-    "about.description": "Tôi là một Lập trình viên Mobile với chuyên môn về Flutter, React Native, Android và iOS. Tôi có kinh nghiệm trong việc xây dựng và bảo trì các SDK di động, áp dụng kiến trúc sạch và làm việc với nhiều công nghệ như Firebase, RESTful API và SocketIO.",
+    "about.description": "Tôi là một Mobile Developer với chuyên môn về Flutter, React Native, Android và iOS. Tôi có kinh nghiệm trong việc xây dựng và bảo trì các SDK di động, áp dụng kiến trúc sạch và làm việc với nhiều công nghệ như Firebase, RESTful API và SocketIO.",
     "about.contact": "Thông tin liên hệ",
     "about.phone": "Điện thoại",
     "about.email": "Email",
@@ -217,21 +217,21 @@ const translations = {
     "projects.project3.name": "Địa chỉ số",
     "projects.project3.period": "12/2022 - 04/2023",
     "projects.project3.description": "Một dự án quản lý địa chỉ số của người dân Việt Nam",
-    "projects.project3.role": "Lập trình viên Mobile",
+    "projects.project3.role": "Mobile Developer",
     "projects.project3.team": "Quy mô nhóm: 1",
     "projects.project3.tech": "Công nghệ: Tích hợp bản đồ (Flutter Map), Xác thực Google, Apple",
     
     "projects.project4.name": "GoCall - VoIP Call",
     "projects.project4.period": "07/2022 - 09/2022",
     "projects.project4.description": "Một ứng dụng tổng đài quản lý cuộc gọi chăm sóc khách hàng",
-    "projects.project4.role": "Lập trình viên Mobile",
+    "projects.project4.role": "Mobile Developer",
     "projects.project4.team": "Quy mô nhóm: 1",
     "projects.project4.tech": "Công nghệ: Tích hợp tính năng gọi điện sử dụng Portsip SDK, iOS Call-kit và VoIP Push để hiển thị cuộc gọi đến",
     
     "projects.project5.name": "GoPage",
     "projects.project5.period": "10/2021 - 10/2022",
     "projects.project5.description": "Một ứng dụng quản lý tin nhắn đa nền tảng và các tính năng POS",
-    "projects.project5.role": "Lập trình viên Mobile",
+    "projects.project5.role": "Mobile Developer",
     "projects.project5.team": "Quy mô nhóm: 5 (2 back-end, 2 web front-end, 1 mobile)",
     "projects.project5.tech": "Công nghệ: Chat thời gian thực, Quản lý POS, Kết nối với Zalo OA, Instagram và Facebook để lấy quyền truy cập trang, Tạo phiên bản POS cho máy SunMi (máy in, máy quét mã vạch)",
     
@@ -268,7 +268,7 @@ const translations = {
     
     // Footer
     "footer.rights": "Đã đăng ký bản quyền",
-    "footer.made": "Được tạo với ❤️",
+    "footer.made": "Được tạo bởi Replit AI ❤️",
     
     // Certifications
     "certifications.title": "Chứng chỉ",
