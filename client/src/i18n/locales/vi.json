@@ -26,7 +26,7 @@
     "email": "Email",
     "phone": "Điện Thoại",
     "interests": "Sở Thích",
-    "interestsList": ["Phát Triển Mobile", "Công Nghệ Bản Đồ", "Clean Architecture", "Mã Nguồn Mở", "Phát Triển SDK", "Flutter"],
+    "interestsList": [],
     "education": "Học Vấn"
   },
   "educationItems": [

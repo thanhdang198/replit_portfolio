@@ -78,13 +78,25 @@ const About = () => {
               <div>
                 <h3 className="text-xl font-medium mb-4">{t('about.interests')}</h3>
                 <div className="flex flex-wrap gap-2">
-                  {Array.isArray(t('about.interestsList', { returnObjects: true })) && 
-                    t('about.interestsList', { returnObjects: true }).map((interest: string, index: number) => (
-                      <span key={index} className="bg-slate-100 px-3 py-1 rounded-full text-sm">
-                        {interest}
-                      </span>
-                    ))
-                  }
+                  {t('about.interests') === 'Interests' ? (
+                    <>
+                      <span className="bg-slate-100 px-3 py-1 rounded-full text-sm">Mobile Development</span>
+                      <span className="bg-slate-100 px-3 py-1 rounded-full text-sm">Map Technologies</span>
+                      <span className="bg-slate-100 px-3 py-1 rounded-full text-sm">Clean Architecture</span>
+                      <span className="bg-slate-100 px-3 py-1 rounded-full text-sm">Open Source</span>
+                      <span className="bg-slate-100 px-3 py-1 rounded-full text-sm">SDK Development</span>
+                      <span className="bg-slate-100 px-3 py-1 rounded-full text-sm">Flutter</span>
+                    </>
+                  ) : (
+                    <>
+                      <span className="bg-slate-100 px-3 py-1 rounded-full text-sm">Phát Triển Mobile</span>
+                      <span className="bg-slate-100 px-3 py-1 rounded-full text-sm">Công Nghệ Bản Đồ</span>
+                      <span className="bg-slate-100 px-3 py-1 rounded-full text-sm">Clean Architecture</span>
+                      <span className="bg-slate-100 px-3 py-1 rounded-full text-sm">Mã Nguồn Mở</span>
+                      <span className="bg-slate-100 px-3 py-1 rounded-full text-sm">Phát Triển SDK</span>
+                      <span className="bg-slate-100 px-3 py-1 rounded-full text-sm">Flutter</span>
+                    </>
+                  )}
                 </div>
               </div>
             </div>
