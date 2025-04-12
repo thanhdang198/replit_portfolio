@@ -14,6 +14,21 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
+  useEffect(() => {
+    // Check if user has a saved preference
+    const savedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    // Set the initial state based on saved preference or system preference
+    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+      setIsDarkMode(true);
+      document.documentElement.classList.add('dark');
+    } else {
+      setIsDarkMode(false);
+      document.documentElement.classList.remove('dark');
+    }
+  }, []);
+
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const closeMenu = () => setIsMenuOpen(false);
 
@@ -37,7 +52,7 @@ const Header = () => {
     <header 
       className={`fixed w-full z-50 transition-all duration-300 ${
         isVisible ? 'translate-y-0' : '-translate-y-full'
-      } ${isScrolled ? 'bg-white shadow-sm py-2' : 'bg-transparent py-4'}`}
+      } ${isScrolled ? 'bg-white dark:bg-zinc-900 shadow-sm py-2' : 'bg-transparent py-4'}`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
@@ -58,7 +73,7 @@ const Header = () => {
               <a 
                 key={section}
                 href={`#${section}`}
-                className="text-zinc-700 hover:text-primary transition-colors"
+                className="text-zinc-700 dark:text-zinc-300 hover:text-primary transition-colors"
                 onClick={(e) => {
                   e.preventDefault();
                   handleNavClick(section);
@@ -116,7 +131,7 @@ const Header = () => {
                   <a 
                     key={section}
                     href={`#${section}`}
-                    className="text-zinc-700 hover:text-primary transition-colors"
+                    className="text-zinc-700 dark:text-zinc-300 hover:text-primary transition-colors"
                     onClick={(e) => {
                       e.preventDefault();
                       handleNavClick(section);

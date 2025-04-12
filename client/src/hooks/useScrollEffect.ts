@@ -54,7 +54,10 @@ export function useHeaderScroll() {
       const currentScrollY = window.scrollY;
       
       // Determine if header should be shown or hidden
-      if (currentScrollY > lastScrollY) {
+      // Special case: Always show header when at the top of the page
+      if (currentScrollY <= 10) {
+        setIsVisible(true);
+      } else if (currentScrollY > lastScrollY) {
         // Scrolling down
         setIsVisible(false);
       } else {
@@ -71,6 +74,9 @@ export function useHeaderScroll() {
       
       setLastScrollY(currentScrollY);
     };
+
+    // Run once on mount to set initial state
+    handleScroll();
 
     window.addEventListener('scroll', handleScroll, { passive: true });
     

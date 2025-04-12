@@ -134,7 +134,14 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium">{t('contact.location')}</h4>
-                    <p>{LOCATION}</p>
+                    <a 
+                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(LOCATION)}`} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline"
+                    >
+                      {LOCATION}
+                    </a>
                   </div>
                 </div>
                 
