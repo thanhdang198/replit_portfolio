@@ -64,14 +64,14 @@ export default function Projects() {
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
         </AnimatedDiv>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <AnimatedDiv key={project.id} delay={index * 0.1}>
               <motion.div
                 whileHover={{ y: -5 }}
                 transition={{ duration: 0.3 }}
               >
-                <Card className="h-full overflow-hidden border border-border/50 hover:border-primary/50 transition-colors">
+                <Card className="h-full overflow-hidden border border-border/50 hover:border-primary/50 transition-colors shadow-sm hover:shadow-md">
                   <CardHeader className="pb-2">
                     <div className="flex justify-between items-start mb-2">
                       <Badge variant="outline" className="text-xs font-normal">
@@ -91,7 +91,7 @@ export default function Projects() {
                         <span>{t(project.roleKey)}</span>
                       </div>
                       <p className="text-muted-foreground text-xs mb-1">{t(project.teamKey)}</p>
-                      <p className="text-muted-foreground text-xs">{t(project.techKey)}</p>
+                      <p className="text-muted-foreground text-xs whitespace-pre-line">{t(project.techKey)}</p>
                     </div>
                   </CardContent>
                 </Card>
