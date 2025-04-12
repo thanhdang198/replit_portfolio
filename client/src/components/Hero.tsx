@@ -35,7 +35,12 @@ export default function Hero() {
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="rounded-full">
-                <a href="#" className="flex items-center gap-2">
+                <a 
+                  href="/DANGTRONGTHANH_CV.pdf" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2"
+                >
                   <Download className="h-4 w-4" />
                   {t("hero.cta")}
                 </a>
