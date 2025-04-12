@@ -52,7 +52,7 @@ export default function Header() {
             <img 
               src="/profile.png" 
               alt="Logo" 
-              className="w-10 h-10 rounded-full object-cover border-2 border-primary" 
+              className="w-10 h-10 object-contain" 
             />
             <span>DTT</span>
           </a>
