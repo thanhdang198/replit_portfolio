@@ -121,6 +121,28 @@ const translations = {
     "footer.rights": "All rights reserved",
     "footer.made": "Made with ❤️",
     
+    // Certifications
+    "certifications.title": "Certifications",
+    "certifications.cert1.name": "Mobile Development Professional",
+    "certifications.cert1.issuer": "LinkedIn Learning",
+    "certifications.cert1.date": "2022",
+    "certifications.cert2.name": "Flutter Development Bootcamp",
+    "certifications.cert2.issuer": "Google Developers",
+    "certifications.cert2.date": "2021",
+
+    // Achievements
+    "achievements.title": "Achievements",
+    "achievements.item1": "Open source contributor to MapLibre Android Auto",
+    "achievements.item2": "Published multiple Flutter and React Native packages with 1000+ downloads",
+    "achievements.item3": "Recognized for excellence in customer support at VietMap",
+
+    // Interests
+    "interests.title": "Personal Interests",
+    "interests.item1": "Mobile technology",
+    "interests.item2": "Open source contribution",
+    "interests.item3": "Technical writing",
+    "interests.item4": "UI/UX design",
+
     // Misc
     "download.cv": "Download CV",
     "theme.toggle": "Toggle Theme",
@@ -248,6 +270,28 @@ const translations = {
     "footer.rights": "Đã đăng ký bản quyền",
     "footer.made": "Được tạo với ❤️",
     
+    // Certifications
+    "certifications.title": "Chứng chỉ",
+    "certifications.cert1.name": "Chuyên gia Phát triển Di động",
+    "certifications.cert1.issuer": "LinkedIn Learning",
+    "certifications.cert1.date": "2022",
+    "certifications.cert2.name": "Khóa đào tạo Phát triển Flutter",
+    "certifications.cert2.issuer": "Google Developers",
+    "certifications.cert2.date": "2021",
+
+    // Achievements
+    "achievements.title": "Thành tích",
+    "achievements.item1": "Người đóng góp mã nguồn mở cho MapLibre Android Auto",
+    "achievements.item2": "Xuất bản nhiều gói Flutter và React Native với hơn 1000 lượt tải",
+    "achievements.item3": "Được công nhận về sự xuất sắc trong hỗ trợ khách hàng tại VietMap",
+
+    // Interests
+    "interests.title": "Sở thích cá nhân",
+    "interests.item1": "Công nghệ di động",
+    "interests.item2": "Đóng góp mã nguồn mở",
+    "interests.item3": "Viết bài kỹ thuật",
+    "interests.item4": "Thiết kế UI/UX",
+
     // Misc
     "download.cv": "Tải CV",
     "theme.toggle": "Chuyển đổi giao diện",
