@@ -16,7 +16,7 @@ export default function Home() {
   useEffect(() => {
     // Add smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
+      anchor.addEventListener('click', function(this: HTMLAnchorElement, e: Event) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href') || '');
         if (target) {
@@ -39,6 +39,9 @@ export default function Home() {
         <Skills />
         <Projects />
         <Education />
+        <Certifications />
+        <Achievements />
+        <Interests />
         <Contact />
       </main>
       <Footer />

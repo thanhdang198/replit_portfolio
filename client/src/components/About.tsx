@@ -17,7 +17,9 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <AnimatedDiv delay={0.2}>
             <div className="bg-card rounded-lg p-6 shadow-sm h-full">
-              <AnimatedText text={t("about.description")} className="text-card-foreground leading-relaxed" />
+              <p className="text-card-foreground leading-relaxed whitespace-pre-line">
+                {t("about.description")}
+              </p>
             </div>
           </AnimatedDiv>
 

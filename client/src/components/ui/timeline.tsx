@@ -34,7 +34,7 @@ export function TimelineItem({
         <div className="text-sm text-muted-foreground mb-1">{date}</div>
         <h3 className="font-semibold text-lg mb-1">{title}</h3>
         {subtitle && <div className="text-primary font-medium mb-2">{subtitle}</div>}
-        {description && <p className="text-muted-foreground mb-2">{description}</p>}
+        {description && <p className="text-muted-foreground mb-2 whitespace-pre-line">{description}</p>}
         {children}
       </div>
     </AnimatedDiv>
