@@ -103,8 +103,8 @@ const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
-                  alt="Thanh Doan" 
+                  src="https://avatars.githubusercontent.com/u/63105759"
+                  alt="Đặng Trọng Thành" 
                   className="w-full h-full object-cover"
                 />
               </div>

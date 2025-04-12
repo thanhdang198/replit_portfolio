@@ -82,23 +82,23 @@
   },
   "technicalSkills": [
     {
-      "name": "JavaScript/TypeScript",
+      "name": "Flutter",
       "level": 90
     },
     {
-      "name": "React & Redux",
+      "name": "React Native",
       "level": 85
     },
     {
-      "name": "HTML5 & CSS3/SCSS",
-      "level": 95
-    },
-    {
-      "name": "Vue.js",
+      "name": "Android (Java/Kotlin)",
       "level": 80
     },
     {
-      "name": "REST API/GraphQL",
+      "name": "iOS (Swift)",
+      "level": 75
+    },
+    {
+      "name": "TypeScript/JavaScript",
       "level": 85
     }
   ],
@@ -106,44 +106,41 @@
     "developmentTools": [
       { "name": "Git", "icon": "git-alt" },
       { "name": "GitHub", "icon": "github" },
-      { "name": "GitLab", "icon": "code-branch" },
-      { "name": "CLI", "icon": "terminal" },
-      { "name": "VS Code", "icon": "laptop-code" }
+      { "name": "Scrum Agile", "icon": "code-branch" },
+      { "name": "CI/CD", "icon": "terminal" },
+      { "name": "Clean Architecture", "icon": "laptop-code" }
     ],
     "frontendLibraries": [
-      { "name": "React", "icon": "react" },
-      { "name": "Vue", "icon": "vuejs" },
-      { "name": "jQuery", "icon": "js" },
-      { "name": "Bootstrap", "icon": "bootstrap" },
-      { "name": "Tailwind CSS", "icon": "wind" },
-      { "name": "Material UI", "icon": "cube" }
+      { "name": "Flutter", "icon": "react" },
+      { "name": "React Native", "icon": "react" },
+      { "name": "Dart", "icon": "js" },
+      { "name": "Kotlin", "icon": "js" },
+      { "name": "Swift", "icon": "wind" },
+      { "name": "TypeScript", "icon": "js" }
     ],
     "buildTools": [
-      { "name": "Webpack", "icon": "node-js" },
-      { "name": "Vite", "icon": "bolt" },
-      { "name": "Gulp", "icon": "tasks" }
+      { "name": "Jira", "icon": "tasks" },
+      { "name": "Redmine", "icon": "tasks" },
+      { "name": "Figma", "icon": "cube" },
+      { "name": "Adobe XD", "icon": "cube" }
     ],
     "testing": [
-      { "name": "Jest", "icon": "vial" },
-      { "name": "React Testing Library", "icon": "check-circle" },
-      { "name": "Cypress", "icon": "bug" }
+      { "name": "Firebase", "icon": "vial" },
+      { "name": "RESTful API", "icon": "check-circle" },
+      { "name": "SocketIO", "icon": "bolt" },
+      { "name": "In-app Purchase", "icon": "bug" }
     ]
   },
   "languages": [
     {
       "name": "Tiếng Việt",
-      "level": 95,
+      "level": 100,
       "description": "Bản Địa"
     },
     {
       "name": "Tiếng Anh",
-      "level": 80,
-      "description": "Chuyên Nghiệp"
-    },
-    {
-      "name": "Tiếng Nhật",
-      "level": 30,
-      "description": "Cơ Bản"
+      "level": 70,
+      "description": "Chứng chỉ B1"
     }
   ],
   "projects": {
@@ -155,22 +152,34 @@
   },
   "projectItems": [
     {
-      "title": "Bảng Điều Khiển E-commerce",
-      "description": "Một bảng điều khiển toàn diện cho phân tích e-commerce, với tính năng trực quan hóa dữ liệu thời gian thực và theo dõi doanh số.",
-      "technologies": ["React", "Redux", "TypeScript", "Chart.js"],
-      "category": "React"
+      "title": "VietMap Flutter Automotive",
+      "description": "Tạo VietMap Map & Navigation SDK cho Android Auto và Apple Carplay sử dụng Flutter. Lãnh đạo đội và hướng dẫn thành viên phát triển plugin.",
+      "technologies": ["Flutter", "Android Auto", "Apple Carplay", "Navigation SDK"],
+      "category": "Flutter"
     },
     {
-      "title": "Ứng Dụng Quản Lý Công Việc",
-      "description": "Một ứng dụng quản lý công việc đầy đủ tính năng với giao diện kéo thả, ưu tiên công việc và tính năng cộng tác nhóm.",
-      "technologies": ["Vue.js", "Vuex", "Firebase", "Tailwind CSS"],
-      "category": "Vue"
+      "title": "VietMap Mobile SDK & CS",
+      "description": "Xây dựng và bảo trì VietMap Map SDK cho Android, iOS, Flutter và React Native. Cung cấp tài liệu kỹ thuật và hỗ trợ khách hàng tích hợp SDK.",
+      "technologies": ["Flutter", "React Native", "Android", "iOS", "Map SDK"],
+      "category": "Flutter"
     },
     {
-      "title": "Ứng Dụng Dự Báo Thời Tiết",
-      "description": "Một ứng dụng di động đa nền tảng cung cấp dự báo thời tiết chính xác với bản đồ tương tác và thông báo tùy chỉnh.",
-      "technologies": ["React Native", "Redux", "OpenWeatherMap API", "Geolocation"],
-      "category": "React"
+      "title": "Địa chỉ số",
+      "description": "Một dự án quản lý địa chỉ số cho cư dân Việt Nam. Triển khai tích hợp bản đồ sử dụng Flutter Map.",
+      "technologies": ["Flutter", "Map Integration", "Google/Apple Authentication"],
+      "category": "Flutter"
+    },
+    {
+      "title": "GoCall - VoIP Call",
+      "description": "Một ứng dụng tổng đài quản lý cuộc gọi chăm sóc khách hàng. Tích hợp tính năng gọi điện sử dụng Portsip SDK với iOS Call-kit và VoIP Push cho cuộc gọi đến.",
+      "technologies": ["React Native", "Portsip SDK", "iOS Call-kit", "VoIP Push"],
+      "category": "React Native"
+    },
+    {
+      "title": "GoPage",
+      "description": "Một ứng dụng quản lý tin nhắn đa nền tảng và tính năng POS. Kết nối với Zalo OA, Instagram và Facebook để lấy quyền truy cập trang.",
+      "technologies": ["React Native", "Realtime Chat", "POS Management", "SunMi Integration"],
+      "category": "React Native"
     }
   ],
   "contact": {
@@ -190,7 +199,7 @@
     "error": "Không thể gửi tin nhắn. Vui lòng thử lại."
   },
   "footer": {
-    "copyright": "© 2023 Đoàn Thanh. Bảo lưu mọi quyền.",
+    "copyright": "© 2024 Đặng Trọng Thành. Bảo lưu mọi quyền.",
     "designed": "Thiết kế & Xây dựng với ❤️"
   }
 }
