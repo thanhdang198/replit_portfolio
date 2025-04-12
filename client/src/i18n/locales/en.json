@@ -82,23 +82,23 @@
   },
   "technicalSkills": [
     {
-      "name": "JavaScript/TypeScript",
+      "name": "Flutter",
       "level": 90
     },
     {
-      "name": "React & Redux",
+      "name": "React Native",
       "level": 85
     },
     {
-      "name": "HTML5 & CSS3/SCSS",
-      "level": 95
-    },
-    {
-      "name": "Vue.js",
+      "name": "Android (Java/Kotlin)",
       "level": 80
     },
     {
-      "name": "REST API/GraphQL",
+      "name": "iOS (Swift)",
+      "level": 75
+    },
+    {
+      "name": "TypeScript/JavaScript",
       "level": 85
     }
   ],
@@ -106,44 +106,41 @@
     "developmentTools": [
       { "name": "Git", "icon": "git-alt" },
       { "name": "GitHub", "icon": "github" },
-      { "name": "GitLab", "icon": "code-branch" },
-      { "name": "CLI", "icon": "terminal" },
-      { "name": "VS Code", "icon": "laptop-code" }
+      { "name": "Scrum Agile", "icon": "code-branch" },
+      { "name": "CI/CD", "icon": "terminal" },
+      { "name": "Clean Architecture", "icon": "laptop-code" }
     ],
     "frontendLibraries": [
-      { "name": "React", "icon": "react" },
-      { "name": "Vue", "icon": "vuejs" },
-      { "name": "jQuery", "icon": "js" },
-      { "name": "Bootstrap", "icon": "bootstrap" },
-      { "name": "Tailwind CSS", "icon": "wind" },
-      { "name": "Material UI", "icon": "cube" }
+      { "name": "Flutter", "icon": "react" },
+      { "name": "React Native", "icon": "react" },
+      { "name": "Dart", "icon": "js" },
+      { "name": "Kotlin", "icon": "js" },
+      { "name": "Swift", "icon": "wind" },
+      { "name": "TypeScript", "icon": "js" }
     ],
     "buildTools": [
-      { "name": "Webpack", "icon": "node-js" },
-      { "name": "Vite", "icon": "bolt" },
-      { "name": "Gulp", "icon": "tasks" }
+      { "name": "Jira", "icon": "tasks" },
+      { "name": "Redmine", "icon": "tasks" },
+      { "name": "Figma", "icon": "cube" },
+      { "name": "Adobe XD", "icon": "cube" }
     ],
     "testing": [
-      { "name": "Jest", "icon": "vial" },
-      { "name": "React Testing Library", "icon": "check-circle" },
-      { "name": "Cypress", "icon": "bug" }
+      { "name": "Firebase", "icon": "vial" },
+      { "name": "RESTful API", "icon": "check-circle" },
+      { "name": "SocketIO", "icon": "bolt" },
+      { "name": "In-app Purchase", "icon": "bug" }
     ]
   },
   "languages": [
     {
       "name": "Vietnamese",
-      "level": 95,
+      "level": 100,
       "description": "Native"
     },
     {
       "name": "English",
-      "level": 80,
-      "description": "Professional"
-    },
-    {
-      "name": "Japanese",
-      "level": 30,
-      "description": "Basic"
+      "level": 70,
+      "description": "B1 Certificate"
     }
   ],
   "projects": {
@@ -155,22 +152,34 @@
   },
   "projectItems": [
     {
-      "title": "E-commerce Dashboard",
-      "description": "A comprehensive dashboard for e-commerce analytics, featuring real-time data visualization and sales tracking.",
-      "technologies": ["React", "Redux", "TypeScript", "Chart.js"],
-      "category": "React"
+      "title": "VietMap Flutter Automotive",
+      "description": "Create VietMap Map & Navigation SDK for Android Auto and Apple Carplay using Flutter. Led the team and mentored members to develop the plugin.",
+      "technologies": ["Flutter", "Android Auto", "Apple Carplay", "Navigation SDK"],
+      "category": "Flutter"
     },
     {
-      "title": "Task Management App",
-      "description": "A full-featured task management application with drag-and-drop interface, task prioritization, and team collaboration features.",
-      "technologies": ["Vue.js", "Vuex", "Firebase", "Tailwind CSS"],
-      "category": "Vue"
+      "title": "VietMap Mobile SDK & CS",
+      "description": "Build and maintain VietMap Map SDK for Android, iOS, Flutter, and React Native. Provide technical documentation and customer support for SDK integration.",
+      "technologies": ["Flutter", "React Native", "Android", "iOS", "Map SDK"],
+      "category": "Flutter"
     },
     {
-      "title": "Weather Forecast App",
-      "description": "A cross-platform mobile application providing accurate weather forecasts with interactive maps and customizable notifications.",
-      "technologies": ["React Native", "Redux", "OpenWeatherMap API", "Geolocation"],
-      "category": "React"
+      "title": "Địa chỉ số (Digital Address)",
+      "description": "A project which manages digital addresses for Vietnam residents. Implemented map integration using Flutter Map.",
+      "technologies": ["Flutter", "Map Integration", "Google/Apple Authentication"],
+      "category": "Flutter"
+    },
+    {
+      "title": "GoCall - VoIP Call",
+      "description": "A switchboard application that manages customer care calls. Integrated calling features using Portsip SDK with iOS Call-kit and VoIP Push for incoming calls.",
+      "technologies": ["React Native", "Portsip SDK", "iOS Call-kit", "VoIP Push"],
+      "category": "React Native"
+    },
+    {
+      "title": "GoPage",
+      "description": "An application which manages multiple platform messaging and POS features. Connected with Zalo OA, Instagram, and Facebook to get page permissions.",
+      "technologies": ["React Native", "Realtime Chat", "POS Management", "SunMi Integration"],
+      "category": "React Native"
     }
   ],
   "contact": {
@@ -190,7 +199,7 @@
     "error": "Failed to send message. Please try again."
   },
   "footer": {
-    "copyright": "© 2023 Thanh Doan. All rights reserved.",
+    "copyright": "© 2024 Đặng Trọng Thành. All rights reserved.",
     "designed": "Designed & Built with ❤️"
   }
 }

@@ -9,39 +9,39 @@
   "hero": {
     "greeting": "Xin chào 👋,",
     "intro": "Tôi là",
-    "name": "Đoàn Thanh",
-    "title": "Lập Trình Viên Frontend",
-    "description": "Tôi chuyên về xây dựng các ứng dụng web mạnh mẽ, tập trung vào người dùng với hiệu suất cao và mã nguồn sạch.",
+    "name": "Đặng Trọng Thành",
+    "title": "Lập Trình Viên Mobile",
+    "description": "Tôi chuyên về xây dựng các ứng dụng di động đa nền tảng với Flutter, React Native, và phát triển native Android/iOS.",
     "contact": "Liên Hệ Tôi",
     "downloadCV": "Tải CV"
   },
   "about": {
     "title": "Về Tôi",
-    "description1": "Tôi là một Lập trình viên Frontend đam mê với hơn 6 năm kinh nghiệm phát triển các ứng dụng web. Hành trình trong lĩnh vực phát triển phần mềm của tôi bắt đầu khi tôi học tại Đại học Bách Khoa Hà Nội.",
-    "description2": "Trong suốt sự nghiệp của mình, tôi đã làm việc với nhiều công nghệ và framework khác nhau, luôn cố gắng tạo ra mã nguồn sạch, dễ bảo trì và trải nghiệm người dùng tuyệt vời. Tôi thích giải quyết các vấn đề phức tạp và liên tục học hỏi các kỹ năng và công nghệ mới.",
-    "description3": "Khi không code, tôi thích đọc sách về công nghệ, chơi cờ vua và khám phá những địa điểm mới.",
+    "description1": "Tôi là một Lập trình viên Mobile chuyên về Flutter, React Native và phát triển native Android/iOS. Tôi tập trung vào xây dựng các giải pháp clean architecture cho các nền tảng di động.",
+    "description2": "Với kinh nghiệm tại GoStream JSC và VietMap JSC, tôi đã làm việc trên nhiều dự án bao gồm quản lý tin nhắn mạng xã hội, gọi điện VoIP, các SDK bản đồ và giải pháp điều hướng.",
+    "description3": "Tôi cũng là người bảo trì mã nguồn mở đóng góp vào các module native cho Flutter và React Native, và tôi đã làm việc trên MapLibre Android Auto.",
     "personalInfo": "Thông Tin Cá Nhân",
     "name": "Tên",
     "location": "Địa Điểm",
     "email": "Email",
     "phone": "Điện Thoại",
     "interests": "Sở Thích",
-    "interestsList": ["Phát Triển Web", "Thiết Kế UI/UX", "Công Nghệ", "Mã Nguồn Mở", "Đọc Sách", "Du Lịch"],
+    "interestsList": ["Phát Triển Mobile", "Công Nghệ Bản Đồ", "Clean Architecture", "Mã Nguồn Mở", "Phát Triển SDK", "Flutter"],
     "education": "Học Vấn"
   },
   "educationItems": [
     {
-      "institution": "Đại học Bách Khoa Hà Nội",
-      "degree": "Kỹ sư Công nghệ Thông tin",
-      "period": "2013 - 2018",
-      "gpa": "GPA: 3.6/4.0",
-      "description": "Tập trung vào kỹ thuật phần mềm và phát triển web. Tham gia nhiều cuộc thi lập trình và hackathon."
+      "institution": "Đại học Vinh",
+      "degree": "Ngành Công nghệ Thông tin",
+      "period": "2016 - 2021",
+      "gpa": "GPA: 7.40/10.0",
+      "description": "Tập trung vào kỹ thuật phần mềm và phát triển ứng dụng di động."
     },
     {
-      "institution": "Chuyên Ngành Phát Triển Frontend",
-      "degree": "Coursera - Meta",
-      "period": "2022",
-      "description": "Hoàn thành khóa đào tạo nâng cao về các phương pháp phát triển frontend hiện đại, React và thiết kế responsive."
+      "institution": "Chứng chỉ tiếng Anh",
+      "degree": "Chứng chỉ B1 & Giao tiếp tiếng Anh cơ bản",
+      "period": "2020",
+      "description": "Tiếng Anh cho công việc, kỹ năng nghiên cứu tài liệu và lập tài liệu kỹ thuật."
     }
   ],
   "experience": {
@@ -49,25 +49,25 @@
   },
   "experienceItems": [
     {
-      "title": "Senior Frontend Developer",
-      "company": "Công ty ABC Tech",
-      "period": "2020 - Hiện tại",
-      "description": "Dẫn dắt đội phát triển frontend trong việc xây dựng các ứng dụng web responsive bằng React và TypeScript. Triển khai các giải pháp quản lý trạng thái sử dụng Redux và Context API.",
-      "technologies": ["React", "TypeScript", "Redux", "Material UI"]
+      "title": "Team Leader Mobile & CS",
+      "company": "VietMap JSC - Bộ phận Map Solutions",
+      "period": "12/2022 - Hiện tại",
+      "description": "Lãnh đạo đội Mobile SDK & Hỗ trợ khách hàng, duy trì SDK bản đồ và điều hướng cho Android, iOS, Flutter và React Native. Triển khai các giải pháp VietMap cho Android Auto và cung cấp tài liệu kỹ thuật và hỗ trợ.",
+      "technologies": ["Flutter", "React Native", "Android", "iOS", "Map SDK", "Android Auto"]
     },
     {
-      "title": "Frontend Developer",
-      "company": "XYZ Solutions",
-      "period": "2018 - 2020",
-      "description": "Phát triển và bảo trì các ứng dụng web phía client. Hợp tác với đội UX để triển khai thiết kế responsive và đảm bảo khả năng tương thích đa trình duyệt.",
-      "technologies": ["JavaScript", "Vue.js", "SCSS", "Webpack"]
+      "title": "Lập Trình Viên Mobile",
+      "company": "GoStream JSC",
+      "period": "02/2021 - 11/2022",
+      "description": "Làm việc trên các dự án quản lý tin nhắn mạng xã hội (Facebook Page, Zalo OA, Instagram), thương mại xã hội và cuộc gọi VoIP với SDK bên thứ ba (PortSIP SDK).",
+      "technologies": ["React Native", "PortSIP SDK", "Social APIs", "POS"]
     },
     {
-      "title": "Thực Tập Sinh Web Developer",
-      "company": "DEF Web Agency",
-      "period": "2017 - 2018",
-      "description": "Hỗ trợ phát triển website cho các khách hàng khác nhau. Tích lũy kinh nghiệm với HTML5, CSS3 và JavaScript. Tham gia các cuộc họp standup hàng ngày và lập kế hoạch sprint.",
-      "technologies": ["HTML5", "CSS3", "JavaScript", "jQuery"]
+      "title": "Thực Tập Sinh",
+      "company": "FPT Software",
+      "period": "5/2019 - 7/2019",
+      "description": "Trở thành thực tập sinh tại FPT Software, nơi dạy tôi cách làm việc với quy trình và thông tin dự án hoàn toàn riêng tư.",
+      "technologies": ["Phát triển phần mềm", "Quy trình chuyên nghiệp"]
     }
   ],
   "skills": {
