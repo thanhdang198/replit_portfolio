@@ -1,0 +1,1 @@
+pm2 start "NODE_ENV=production node dist/index.js" --name "your-app-name"
