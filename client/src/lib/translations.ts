@@ -12,14 +12,14 @@ const translations = {
     // Hero
     "hero.greeting": "Hello, I'm",
     "hero.name": "Đặng Trọng Thành",
-    "hero.title": "Mobile Developer",
+    "hero.title": "IT Engineer",
     "hero.subtitle": "Specializing in Flutter, React Native, Android, and iOS Development",
     "hero.cta": "Download CV",
     "hero.contact": "Contact Me",
     
     // About
     "about.title": "About Me",
-    "about.description": "I am a skilled Mobile Developer with expertise in Flutter, React Native, Android, and iOS development. I have experience in building and maintaining mobile SDKs, implementing clean architecture, and working with various technologies like Firebase, RESTful APIs, and SocketIO.",
+    "about.description": "I am a skilled Mobile Developer with expertise in Flutter, React Native, Android, and iOS development. I have experience in building and maintaining mobile SDKs, implementing clean architecture, and working with various technologies like Firebase, RESTful APIs, and SocketIO.\n\n Currently, I'm an \"AI using Engineer\", meaning using some AI agent for quickly solve some problems in my work, such as using AI to write technical documents, create playgrounds for testing, internal tools, and more.",
     "about.contact": "Contact Information",
     "about.phone": "Phone",
     "about.email": "Email",
@@ -29,7 +29,7 @@ const translations = {
     // Experience
     "experience.title": "Work Experience",
     "experience.company1.name": "VietMap JSC - Map Solutions BU",
-    "experience.company1.period": "12/2022 - Present",
+    "experience.company1.period": "12/2022 - 12/2024",
     "experience.company1.role": "Mobile team & CS team leader",
     "experience.company1.description": "At this time, I have maintained some projects at Map SDK for Android and IOS, Flutter and React Native, digital address applications,...",
     
@@ -42,6 +42,11 @@ const translations = {
     "experience.company3.period": "5/2019 - 7/2019",
     "experience.company3.role": "Intern",
     "experience.company3.description": "Become an intern of Fsoft, which teach me how to work with fully private process and project information",
+    
+    "experience.company4.name": "VietMap JSC - Map Solutions BU",
+    "experience.company4.period": "01/2025 - Present",
+    "experience.company4.role": "Solutions Engineer",
+    "experience.company4.description": "Currently, I am working as a Solutions Engineer, specializing in supporting customers with the integration of VietMap’s Map API and SDK into their applications. My responsibilities include providing technical documentation, assisting with implementation, handling integration issues, and ensuring a smooth and efficient onboarding process.\nIn addition, I analyze customer problems, identify root causes, assign tasks to team members, and propose solutions to improve team productivity and delivery quality.",
     
     // Skills
     "skills.title": "Skills",
@@ -132,7 +137,7 @@ const translations = {
 
     // Achievements
     "achievements.title": "Achievements",
-    "achievements.item1": "Open source contributor to MapLibre Android Auto",
+    "achievements.item1": "Open source contributor to ",
     "achievements.item2": "Published multiple Flutter and React Native packages with 1000+ downloads",
     "achievements.item3": "Recognized for excellence in customer support at VietMap",
 
@@ -161,14 +166,14 @@ const translations = {
     // Hero
     "hero.greeting": "Xin chào, tôi là",
     "hero.name": "Đặng Trọng Thành",
-    "hero.title": "Mobile Developer",
+    "hero.title": "IT Engineer",
     "hero.subtitle": "Chuyên về phát triển Flutter, React Native, Android và iOS",
     "hero.cta": "Tải CV",
     "hero.contact": "Liên hệ",
     
     // About
     "about.title": "Giới thiệu",
-    "about.description": "Tôi là một Mobile Developer với chuyên môn về Flutter, React Native, Android và iOS. Tôi có kinh nghiệm trong việc xây dựng và bảo trì các SDK di động, áp dụng kiến trúc sạch và làm việc với nhiều công nghệ như Firebase, RESTful API và SocketIO.",
+    "about.description": "Tôi là một Mobile Developer với chuyên môn về Flutter, React Native, Android và iOS. Tôi có kinh nghiệm trong việc xây dựng và bảo trì các SDK di động, áp dụng clean architecture và làm việc với nhiều công nghệ như Firebase, RESTful API và SocketIO.\n\n Hiện tại, tôi là một \"AI using Engineer\", nghĩa là tôi sử dụng các tác nhân AI để nhanh chóng giải quyết một số vấn đề trong công việc, chẳng hạn như dùng AI để viết tài liệu kỹ thuật, tạo môi trường thử nghiệm (playground), công cụ nội bộ và nhiều hơn nữa.",
     "about.contact": "Thông tin liên hệ",
     "about.phone": "Điện thoại",
     "about.email": "Email",
@@ -178,7 +183,7 @@ const translations = {
     // Experience
     "experience.title": "Kinh nghiệm làm việc",
     "experience.company1.name": "VietMap JSC - Map Solutions BU",
-    "experience.company1.period": "12/2022 - Hiện tại",
+    "experience.company1.period": "12/2022 - 12/2024",
     "experience.company1.role": "Mobile team & CS team leader",
     "experience.company1.description": "Trong thời gian này, tôi đã duy trì một số dự án tại Map SDK cho Android và iOS, Flutter và React Native, các ứng dụng địa chỉ số,...",
     
@@ -191,6 +196,11 @@ const translations = {
     "experience.company3.period": "5/2019 - 7/2019",
     "experience.company3.role": "Thực tập sinh",
     "experience.company3.description": "Trở thành thực tập sinh của Fsoft, nơi dạy tôi cách làm việc với quy trình và thông tin dự án riêng tư",
+    
+    "experience.company4.name": "VietMap JSC - Map Solutions BU",
+    "experience.company4.period": "01/2025 - Hiện tại",
+    "experience.company4.role": "Solutions Engineer",
+    "experience.company4.description": "Hiện tại, tôi đang làm việc với vai trò Kỹ sư Giải pháp (Solutions Engineer), chuyên hỗ trợ khách hàng tích hợp API và SDK bản đồ của VietMap vào các ứng dụng của họ. Công việc của tôi bao gồm cung cấp tài liệu kỹ thuật, hỗ trợ triển khai, xử lý các sự cố trong quá trình tích hợp và đảm bảo quy trình tiếp nhận diễn ra suôn sẻ, hiệu quả.\nBên cạnh đó, tôi còn phân tích các vấn đề từ phía khách hàng, xác định nguyên nhân gốc rễ, phân công nhiệm vụ cho các thành viên trong nhóm và đề xuất các giải pháp nhằm nâng cao hiệu suất làm việc cũng như chất lượng sản phẩm đầu ra của nhóm",
     
     // Skills
     "skills.title": "Kỹ năng",
@@ -281,7 +291,7 @@ const translations = {
 
     // Achievements
     "achievements.title": "Thành tích",
-    "achievements.item1": "Người đóng góp mã nguồn mở cho MapLibre Android Auto",
+    "achievements.item1": "Người đóng góp mã nguồn mở cho ",
     "achievements.item2": "Xuất bản nhiều gói Flutter và React Native với hơn 1000 lượt tải",
     "achievements.item3": "Được công nhận về sự xuất sắc trong hỗ trợ khách hàng tại VietMap",
 

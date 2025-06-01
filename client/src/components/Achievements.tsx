@@ -5,11 +5,7 @@ import { useTranslation } from "@/hooks/useTranslation";
 export default function Achievements() {
   const { t } = useTranslation();
 
-  const achievements = [
-    t("achievements.item1"),
-    t("achievements.item2"),
-    t("achievements.item3"),
-  ];
+  const achievements = [t("achievements.item1"), t("achievements.item2"), t("achievements.item3")];
 
   return (
     <section id="achievements" className="py-16 bg-muted/30">
@@ -22,15 +18,27 @@ export default function Achievements() {
         <div className="max-w-3xl mx-auto">
           <ul className="space-y-5">
             {achievements.map((achievement, index) => (
-              <AnimatedDiv
-                key={index}
-                delay={0.1 * index}
-                className="flex items-start gap-4"
-              >
+              <AnimatedDiv key={index} delay={0.1 * index} className="flex items-start gap-4">
                 <div className="bg-primary/10 p-2 rounded-full mt-1 flex-shrink-0">
                   <Trophy className="h-5 w-5 text-primary" />
                 </div>
-                <p className="text-foreground/90">{achievement}</p>
+                <p className="text-foreground/90">
+                  {index === 0 ? (
+                    <>
+                      {achievement}{" "}
+                      <a
+                        href="https://github.com/maplibre/MapLibre-Android-Auto-Sample"
+                        className="text-primary hover:underline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        MapLibre Android Auto
+                      </a>
+                    </>
+                  ) : (
+                    achievement
+                  )}
+                </p>
               </AnimatedDiv>
             ))}
           </ul>

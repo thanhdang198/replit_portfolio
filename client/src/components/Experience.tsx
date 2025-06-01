@@ -16,6 +16,15 @@ export default function Experience() {
 
         <div className="max-w-3xl mx-auto">
           <Timeline>
+
+            <TimelineItem
+              date={t("experience.company4.period")}
+              title={t("experience.company4.name")}
+              subtitle={t("experience.company4.role")}
+              description={t("experience.company4.description")}
+              icon={<Briefcase className="h-5 w-5 text-primary" />}
+            />
+             
             <TimelineItem
               date={t("experience.company1.period")}
               title={t("experience.company1.name")}
